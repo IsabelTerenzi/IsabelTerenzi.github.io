@@ -2,71 +2,61 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UFT-8" <title>Isabel Terenzi - Portfólio</title>
-    <style>
-        h1 {
-            font-family: 'Courier New', Courier, monospace;
-            text-align: center;
-            font-size: 40px;
-        }
-
-        body {
-            background-color: #FFF0BA;
-        }
-
-        #foto {
-            border-radius: 50%;
-            display: block;
-            margin: auto;
-        }
-
-        .textoscentro {
-            text-align: center;
-        }
-
-        .fonte {
-            font-family: 'Courier New', Courier, monospace;
-        }
-
-        .belbooks {
-            font-size: 25px;
-            text-align: center;
-            background-color: #F75464;
-            padding: 15px;
-            border-radius: 5%;
-            color: white;
-            font-family: 'Courier New', Courier, monospace;
-            text-decoration: none;
-        }
-    </style>
+    <title>Isabel Terenzi - Portfólio</title>
+    <meta charset="UFT-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-    <h4>Índice</h4>
-    <ul>
-        <li><a href="#quem">Quem sou eu?</a></li>
-        <li><a href="#foto">Minha foto</a></li>
-        <li><a href="#habilidades">Habilidades</a></li>
-    </ul>
-    <h1>Isabel Gonçalves Terenzi</h1>
-    <img id="foto" src="bel books 2.jpeg" alt="Isabel Terenzi" width="300px">
-    <h2 class="textoscentro">Quem sou eu?</h2>
-    <p class="fonte" id="quem" class="textoscentro"> Mineira, designer, apaixonada por literatura e por tudo que esse
-        mundo pode nos proporcionar. Trabalha com
-        produção de conteúdo e está sempre buscando descobrir novos mundos através dos livros e compartilhar essas
-        experiências. Atualmente estudando programação na Trybe. Siga no Instagram: <br><br><br> 
-        <p><a class="belbooks" href="https://www.instagram.com/bel.books/" target="_blank">@bel.books</a></p>
-    <br><h2 id="habilidades">Habilidades</h2>
-    <ul>
-        <li>Produção de textos</li>
-        <li>Responsabilidade</li>
-        <li><strong>Organização</strong></li>
-        <li>Ingês</li>
-        <li>Mídias Sociais</li>
-        <li>Design de Ambientes</li>
-    </ul>
+    <div class="indice">
+        <a href="#foto">FOTO</a>
+        <a href="#idquem">APRESENTAÇÃO</a>
+        <a href="#idbelbooks">BEL.BOOKS</a>
+        <a href="#idhabilidades">HABILIDADES</a>
+        <a href="#idlinks">LINKS</a>
+    </div>
+    <div>
+        <h1>Isabel Gonçalves Terenzi</h1>
+        <div class="fotoedescricao">
+            <img id="foto" src="IMG_7799.jpg" alt="Isabel Terenzi" width="250px">
+            <h2 id="idquem" class="presentation">Apresentação</h2>
+            <p class="presentation"> Brasileira, de Belo Horizonte, designer formada pela Universidade do Estado de
+                Minas Gerais, apaixonada por literatura e por tudo que esse mundo pode nos proporcionar. Trabalho com
+                produção de conteúdo e estou sempre em busca de novos
+                mundos através dos livros e compartilhar essas experiências. Atualmente estudando programação na Trybe.
+            <div class="belbooks">
+                <img id="belbooksfoto" src="IMG_7798.jpg" alt="Perfil Bel Books no Instagram" width="300px">
+                <h2 id="idbelbooks">Bel Books</h2>
+                <p class="belbooksperfil">Perfil no Instagram sobre literatura, onde escrevo resenhas de livros, faço recomendações, divulgo promoções, dicas de organização e produzo uma Newsletter com os eventos, cursos e lançamentos do mundo dos livros.</p>
+                <div class="parcerias">
+                    <h3>Parcerias atuais:</h3>
+                    <ul>
+                        <li>Companhia das Letras</li>
+                        <li>Fósforo</li>
+                        <li>Relicário Edições</li>
+                        <li>Grupo Editorial Record</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="habilidades">
+        <h2 id="idhabilidades">Habilidades</h2>
+        <ul>
+            <li>Produção de textos</li>
+            <li>Ingês fluente</li>
+            <li>Mídias Sociais</li>
+            <li>Design de Ambientes</li>
+            <li>Adobe Photoshop</li>
+            <li>Adobe Premiere</li>
+            <li>AutoCAD</li>
+            <li>Sketchup e V-Ray</li>
+        </ul>
+    </div>
+    <div class="links">
+        <h2 id="idlinks">Links</h2>
 
-
+    </div>
 </body>
 
 </html>

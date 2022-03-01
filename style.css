@@ -1,0 +1,89 @@
+h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  font-size: 40px;
+}
+
+body {
+  background-color: #dfe0df93;
+}
+
+.indice {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 50px;
+  font-size: 16px;
+  line-height: 40px;
+  word-spacing: 60px;
+  background-color: rgb(65, 64, 64);
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(240, 240, 240);
+}
+
+#foto {
+  border-radius: 50%;
+  padding: 8px;
+  background-color: rgb(48, 47, 47);
+  margin-left: 20%;
+}
+
+h2.presentation {
+  margin-left: 30%;
+  margin-top: -250px;
+  float: right;
+  margin-right: 45%;
+}
+
+p.presentation {
+  display: inline-block;
+  margin-left: 45%;
+  margin-right: 25%;
+  font-size: 18px;
+  text-align: justify;
+  margin-top: -180px;
+  margin-bottom: 80px;
+  float: right;
+  line-height: 25px;
+}
+
+.fotoedescricao {
+  display: inline-block;
+  margin: auto;
+  height: 300px;
+}
+
+.belbooks {
+    
+}
+
+#belbooksfoto {
+  padding: 8px;
+  background-color: rgb(48, 47, 47);
+  margin-left: 20%;
+}
+
+#idbelbooks {
+    margin-left: 30%;
+    margin-top: -250px;
+    float: right;
+    margin-right: 45%;
+}
+
+p.belbooksperfil {
+  display: inline-block;
+
+}
+.parcerias {
+}
+
+.habilidades {
+}
+
+.links {
+}
