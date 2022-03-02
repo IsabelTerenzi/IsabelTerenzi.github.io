@@ -26,64 +26,51 @@ a {
   color: rgb(240, 240, 240);
 }
 
+.fotoedescricao {
+    text-align: justify;
+    font-size: 18px;
+    line-height: 30px;
+    display: inline-block;
+    margin-left: 20%;
+    margin-right: 30%;
+    margin-bottom: 8%;
+    margin-top: 6%;
+  }
+
 #foto {
   border-radius: 50%;
   padding: 8px;
   background-color: rgb(48, 47, 47);
-  margin-left: 20%;
-}
-
-h2.presentation {
-  margin-left: 30%;
-  margin-top: -250px;
-  float: right;
-  margin-right: 45%;
-}
-
-p.presentation {
-  display: inline-block;
-  margin-left: 45%;
-  margin-right: 25%;
-  font-size: 18px;
-  text-align: justify;
-  margin-top: -180px;
-  margin-bottom: 80px;
-  float: right;
-  line-height: 25px;
-}
-
-.fotoedescricao {
-  display: inline-block;
-  margin: auto;
-  height: 300px;
+  float: left;
+  margin-right: 10%;
 }
 
 .belbooks {
-    
+    display: inline-block;
+    margin-left: 20%;
+    margin-right: 30%;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 6%;
 }
-
 #belbooksfoto {
-  padding: 8px;
-  background-color: rgb(48, 47, 47);
-  margin-left: 20%;
-}
-
-#idbelbooks {
-    margin-left: 30%;
-    margin-top: -250px;
-    float: right;
-    margin-right: 45%;
-}
-
-p.belbooksperfil {
-  display: inline-block;
-
-}
-.parcerias {
-}
-
+    padding: 8px;
+    background-color: rgb(48, 47, 47);
+    float: left;
+    margin-right: 10%;
+  }
 .habilidades {
+    margin-left: 20%;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 6%;
 }
 
 .links {
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 6%;
+    word-spacing: 60px;
+    text-align: center;
 }
